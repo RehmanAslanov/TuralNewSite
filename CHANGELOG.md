@@ -9,6 +9,7 @@ Format Keep a Changelog prinsiplərinə əsaslanır.
 ### Changed
 - Toy tarixi sahəsi üçün ilkin dəyər cari tarixə avtomatik təyin edilir.
 - Film başlıqlarının rəngi dark və light mood arasında düzgün dəyişir.
+- `index.html` daxilində iki subtitle sətrində em dash işarələri sadə tire ilə əvəz olundu.
 
 ### Fixed
 - `fix: dark mood color` commitində `.film-card h3` və `.film-title-black` üçün ziddiyyətli rəng qaydaları aradan qaldırıldı.

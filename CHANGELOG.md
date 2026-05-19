@@ -8,6 +8,10 @@ Format Keep a Changelog prinsiplərinə əsaslanır.
 
 ### Changed
 - Toy tarixi sahəsi üçün ilkin dəyər cari tarixə avtomatik təyin edilir.
+- Film başlıqlarının rəngi dark və light mood arasında düzgün dəyişir.
+
+### Fixed
+- `fix: dark mood color` commitində `.film-card h3` və `.film-title-black` üçün ziddiyyətli rəng qaydaları aradan qaldırıldı.
 
 ### Technical
 - Formdakı `input[type="date"]` səhifə yüklənərkən lokal saat qurşağına görə bugünkü tarixlə doldurulur.

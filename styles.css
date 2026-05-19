@@ -1,13 +1,15 @@
-/* Video başlıqları üçün yalnız aşağıdakı iki qayda işləsin */
-body.dark-mode .film-card h3 {
-    color: #111 !important;
+/* Video başlıqları üçün mövzuya uyğun rəng */
+.film-card h3,
+.film-title-black {
+    color: #fff;
 }
-body.light-mode .film-card h3 {
+body.dark-mode .film-card h3,
+body.dark-mode .film-title-black {
     color: #fff !important;
 }
-/* Xüsusi film başlığı üçün qara rəng */
-.film-title-black {
-    color: #111 !important;
+body.light-mode .film-card h3,
+body.light-mode .film-title-black {
+    color: #000 !important;
 }
 body.light-mode .header .logo,
 body.light-mode .header .nav-link,
@@ -187,7 +189,7 @@ body.dark-mode .header {
 
 .section-label::before,
 .section-label::after {
-    content: '—';
+    content: '-';
     display: inline-block;
     margin: 0 15px;
     color: #555;
@@ -383,15 +385,6 @@ body.light-mode .films-section {
     font-size: 18px;
     font-weight: 300;
     font-style: italic;
-}
-body.dark-mode .film-card h3 {
-    color: #111 !important;
-}
-body.light-mode .film-card h3 {
-    color: #000 !important;
-}
-body.light-mode .film-card h3 {
-    color: #000 !important;
 }
 
 /* Light mode-da butun yazi rengleri tam qara olsun */

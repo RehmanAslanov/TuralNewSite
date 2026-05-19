@@ -3,28 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TURAL HUSEYN - Sinematografiya</title>
+    <title data-i18n="meta.title">TURAL HUSEYN - Kinematoqrafiya</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <!-- HEADER -->
     <header class="header">
         <div class="container">
-            <div class="logo">TURAL · HUSEYN</div>
+            <div class="logo" data-i18n="header.logo">TURAL · HÜSEYN</div>
             <nav class="nav">
-                <a href="#films" class="nav-link">FİMLƏR</a>
-                <a href="#portfolio" class="nav-link">PORTFOLİO</a>
-                <a href="#love-story" class="nav-link">LOVE STORY</a>
-                <a href="#about" class="nav-link">HAQQIMDA</a>
-                <a href="#contact" class="nav-link">ƏLAQƏ</a>
+                <a href="#films" class="nav-link" data-i18n="nav.films">FİLMLƏR</a>
+                <a href="#portfolio" class="nav-link" data-i18n="nav.portfolio">PORTFOLİO</a>
+                <a href="#love-story" class="nav-link" data-i18n="nav.loveStory">SEVGİ HEKAYƏSİ</a>
+                <a href="#about" class="nav-link" data-i18n="nav.about">HAQQIMDA</a>
+                <a href="#contact" class="nav-link" data-i18n="nav.contact">ƏLAQƏ</a>
             </nav>
             <div class="header-right">
                 <div class="language-switcher">
-                    <a href="#" class="lang">EN</a>
+                    <a href="#" class="lang" data-lang="en">EN</a>
                     <span>/</span>
-                    <a href="#" class="lang">RU</a>
+                    <a href="#" class="lang" data-lang="ru">RU</a>
                     <span>/</span>
-                    <a href="#" class="lang active">AZ</a>
+                    <a href="#" class="lang active" data-lang="az">AZ</a>
                 </div>
                 <button class="theme-toggle">☀️</button>
             </div>
@@ -34,16 +34,16 @@
     <!-- HERO SECTION -->
     <section class="hero">
         <div class="video-container hero-video">
-              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop" alt="Wedding" class="hero-bg">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?w=1920&h=1080&fit=crop" alt="Wedding" class="hero-bg" data-i18n-alt="hero.imageAlt">
         </div>
         <div class="hero-overlay">
             <div class="hero-content">
-                <div class="section-label">TOY KİNEMATOQRAFİYASI</div>
-                <h1>Ruhla çəkilmiş hekayələr</h1>
-                <p>Toyunuz sadəcə xatirlərrdən daha artığına layiqdir. O, bir filmə layiqdir.</p>
+                <div class="section-label" data-i18n="hero.label">TOY KİNEMATOQRAFİYASI</div>
+                <h1 data-i18n="hero.title">Ruhla çəkilən hekayələr</h1>
+                <p data-i18n="hero.subtitle">Toyunuz sadəcə xatirələrdən ibarət olmamalıdır. O, bir filmə layiqdir.</p>
                 <div class="hero-buttons">
-                    <button class="btn btn-primary">FİMLƏRƏ BAX</button>
-                    <button class="btn btn-secondary">HEKAYƏYƏ BAŞLA</button>
+                    <button class="btn btn-primary" data-i18n="hero.primaryBtn">FİLMLƏRƏ BAX</button>
+                    <button class="btn btn-secondary" data-i18n="hero.secondaryBtn">HEKAYƏYƏ BAŞLA</button>
                 </div>
             </div>
         </div>
@@ -53,8 +53,8 @@
     <section id="films" class="section films-section">
         <div class="container">
             <div class="section-header">
-                <h2>Seçilmiş Toy Filmleri</h2>
-                <p>Hər kadrda — hər ürək döyüntüsü.</p>
+                <h2 data-i18n="films.title">Seçilmiş Toy Filmləri</h2>
+                <p data-i18n="films.subtitle">Hər kadrda — hər ürək döyüntüsü.</p>
             </div>
             <div class="films-grid">
                 <div class="film-card">
@@ -63,7 +63,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <h3>Alfonso & Nigar Wedding film</h3>
+                    <h3 data-i18n="films.card1">Alfonso & Nigar toy filmi</h3>
                 </div>
                 <div class="film-card">
                     <div class="video-container">
@@ -71,7 +71,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <h3 class="film-title-black">Laman & Daniel short film</h3>
+                    <h3 class="film-title-black" data-i18n="films.card2">Laman & Daniel qısametrajlı film</h3>
                 </div>
             </div>
         </div>
@@ -81,8 +81,8 @@
     <section id="portfolio" class="section portfolio-section">
         <div class="container">
             <div class="section-header">
-                <h2>Bütün Toy Filmleri</h2>
-                <p>Arxivə nəzər salın — hər toy, hər fəsil.</p>
+                <h2 data-i18n="portfolio.title">Bütün Toy Filmləri</h2>
+                <p data-i18n="portfolio.subtitle">Arxivə nəzər salın — hər toy, hər fəsil.</p>
             </div>
             <div class="portfolio-grid">
                 <div class="portfolio-item">
@@ -91,7 +91,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <p>Agalar & Anastasiya wedding film</p>
+                    <p data-i18n="portfolio.card1">Ağalar & Anastasiya toy filmi</p>
                 </div>
                 <div class="portfolio-item">
                     <div class="video-container">
@@ -99,7 +99,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <p>Veysel & Umran</p>
+                    <p data-i18n="portfolio.card2">Veysel & Umran</p>
                 </div>
                 <div class="portfolio-item">
                     <div class="video-container">
@@ -107,7 +107,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <p>Emil & Emilya Wedding film</p>
+                    <p data-i18n="portfolio.card3">Emil & Emiliya toy filmi</p>
                 </div>
                 <div class="portfolio-item">
                     <div class="video-container">
@@ -115,7 +115,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <p>Javid & Fira Wedding film</p>
+                    <p data-i18n="portfolio.card4">Cavid & Fira toy filmi</p>
                 </div>
             </div>
         </div>
@@ -125,8 +125,8 @@
     <section id="love-story" class="section love-story-section">
         <div class="container">
             <div class="section-header">
-                <h2>Love Story Filmleri</h2>
-                <p>Sakit günortalar, qızılı axşamlar və böyük gündən əvvəlki anlar.</p>
+                <h2 data-i18n="loveStory.title">Sevgi Hekayəsi Filmləri</h2>
+                <p data-i18n="loveStory.subtitle">Sakit günortalar, qızılı axşamlar və böyük gündən əvvəlki anlar.</p>
             </div>
             <div class="love-story-grid">
                 <div class="love-story-item">
@@ -135,7 +135,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <p>Turkan & Tural Prewedding film</p>
+                    <p data-i18n="loveStory.card1">Türkan & Tural nişanöncəsi filmi</p>
                 </div>
                 <div class="love-story-item">
                     <div class="video-container">
@@ -143,7 +143,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <p>Nigar & Tamerlan Love Story</p>
+                    <p data-i18n="loveStory.card2">Nigar & Tamerlan sevgi hekayəsi</p>
                 </div>
                 <div class="love-story-item">
                     <div class="video-container">
@@ -151,7 +151,7 @@
                                 frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
                                 allowfullscreen></iframe>
                     </div>
-                    <p>Alena Kaporeyko & Delec Oruçlu</p>
+                    <p data-i18n="loveStory.card3">Alena Kaporeyko & Delec Oruclu</p>
                 </div>
             </div>
         </div>
@@ -162,21 +162,21 @@
         <div class="container">
             <div class="about-grid">
                 <div class="about-image">
-                    <img src="images/about-main.jpg" alt="Tural Huseyn" class="about-photo">
+                    <img src="images/about-main.jpg" alt="Tural Hüseyn" class="about-photo" data-i18n-alt="about.imageAlt">
                 </div>
                 <div class="about-content">
-                    <div class="section-label">TOYDAN ƏVVƏL</div>
-                    <h2>Hər sevgi hekayəsi cyni dəyil.</h2>
-                    <p>Hisslləri trenddan üstün tutanlar, mənəni səs-küydən daha vaciб sayarılar və adi videolardan daha çox zamansız xatirələr istəyənlər üçün varıq. Biz toy gününü sadəcə çekmirk, onu yenidən hiss ediləcək bir xatiraya çeviririk.</p>
-                    <blockquote>"Çinki bəzi sevgi hekayələri standart kadrlara sığmaz. Onlar kinoya layiqdir."</blockquote>
+                    <div class="section-label" data-i18n="about.label">TOYDAN ƏVVƏL</div>
+                    <h2 data-i18n="about.title">Hər sevgi hekayəsi eyni deyil.</h2>
+                    <p data-i18n="about.text">Hissləri trenddən üstün tutanlar, mənanı səs-küydən daha vacib sayanlar və adi videolardan daha çox zamansız xatirələr istəyənlər üçün buradayıq. Biz toy gününü sadəcə çəkmirik, onu yenidən hiss ediləcək bir xatirəyə çeviririk.</p>
+                    <blockquote data-i18n="about.quote">"Çünki bəzi sevgi hekayələri standart kadrlara sığmır. Onlar kinoya layiqdir."</blockquote>
                     <div class="stats">
                         <div class="stat">
                             <h3>120+</h3>
-                            <p>WEDDINGS</p>
+                            <p data-i18n="about.stat1">TOYLAR</p>
                         </div>
                         <div class="stat">
-                            <h3>13 yrs</h3>
-                            <p>FILMMAKING</p>
+                            <h3 data-i18n="about.stat2Value">13 il</h3>
+                            <p data-i18n="about.stat2">KİNEMATOQRAFİYA</p>
                         </div>
                     </div>
                 </div>
@@ -189,9 +189,9 @@
         <div class="container">
             <div class="contact-grid">
                 <div class="contact-info">
-                    <div class="section-label">BAŞLA</div>
-                    <h2>Hekayənizi Birə<br>Anladağ</h2>
-                    <p>Dünya üzrə toylar üçün alçatanm. Yazın və birlində zamansız bir əsər yaradağ.</p>
+                    <div class="section-label" data-i18n="contact.label">BAŞLA</div>
+                    <h2 data-i18n-html="contact.title">Hekayənizi Birgə<br>Anladaq</h2>
+                    <p data-i18n="contact.subtitle">Dünyanın hər yerində toy çəkilişləri üçün əlçatımlıyam. Yazın və birlikdə zamansız bir əsər yaradaq.</p>
                     <div class="contact-details">
                         <div class="contact-item">
                             <span class="icon">✉</span>
@@ -203,33 +203,33 @@
                         </div>
                         <div class="contact-item">
                             <span class="icon">📍</span>
-                            <span>Azerbaijan & Worldwide</span>
+                            <span data-i18n="contact.location">Azərbaycan və dünya üzrə</span>
                         </div>
                     </div>
                 </div>
                 <div class="contact-form">
                     <form>
                         <div class="form-group">
-                            <label>ADINIZ</label>
-                            <input type="text" placeholder="Adınız" required>
+                            <label data-i18n="form.nameLabel">ADINIZ</label>
+                            <input type="text" placeholder="Adınız" data-i18n-placeholder="form.namePlaceholder" required>
                         </div>
                         <div class="form-group">
-                            <label>TELEFON</label>
+                            <label data-i18n="form.phoneLabel">TELEFON</label>
                             <input type="tel" placeholder="+994" required>
                         </div>
                         <div class="form-group">
-                            <label>TOY TARİXİ</label>
+                            <label data-i18n="form.dateLabel">TOY TARİXİ</label>
                             <input type="date" required>
                         </div>
                         <div class="form-group">
-                            <label>EMAIL</label>
-                            <input type="email" placeholder="your@email.com" required>
+                            <label data-i18n="form.emailLabel">E-POÇT</label>
+                            <input type="email" placeholder="email@unvan.com" data-i18n-placeholder="form.emailPlaceholder" required>
                         </div>
                         <div class="form-group">
-                            <label>MƏKAN</label>
-                            <textarea placeholder="Toy yeri, əlavə məlumatlar" rows="4"></textarea>
+                            <label data-i18n="form.locationLabel">MƏKAN</label>
+                            <textarea placeholder="Toy yeri, əlavə məlumatlar" data-i18n-placeholder="form.locationPlaceholder" rows="4"></textarea>
                         </div>
-                        <button type="submit" class="btn btn-primary">SORGÜ GÖNDƏR</button>
+                        <button type="submit" class="btn btn-primary" data-i18n="form.submit">SORĞU GÖNDƏR</button>
                     </form>
                 </div>
             </div>
@@ -239,7 +239,7 @@
     <!-- FOOTER -->
     <footer class="footer">
         <div class="container">
-            <p>&copy; 2024 TURAL HUSEYN - Kİnematik Toy Filmleri</p>
+            <p data-i18n="footer.copyright">&copy; 2024 TURAL HUSEYN - Kinematik Toy Filmləri</p>
         </div>
     </footer>
 

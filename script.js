@@ -33,11 +33,11 @@ const i18nData = {
         'hero.primaryBtn': 'FİLMLƏRƏ BAX',
         'hero.secondaryBtn': 'HEKAYƏYƏ BAŞLA',
         'films.title': 'Seçilmiş Toy Filmləri',
-        'films.subtitle': 'Hər kadrda — hər ürək döyüntüsü.',
+        'films.subtitle': 'Hər kadrda - hər ürək döyüntüsü.',
         'films.card1': 'Alfonso & Nigar toy filmi',
         'films.card2': 'Laman & Daniel qısametrajlı film',
         'portfolio.title': 'Bütün Toy Filmləri',
-        'portfolio.subtitle': 'Arxivə nəzər salın — hər toy, hər fəsil.',
+        'portfolio.subtitle': 'Arxivə nəzər salın - hər toy, hər fəsil.',
         'portfolio.card1': 'Ağalar & Anastasiya toy filmi',
         'portfolio.card2': 'Veysel & Umran',
         'portfolio.card3': 'Emil & Emiliya toy filmi',
@@ -93,7 +93,7 @@ const i18nData = {
         'films.card1': 'Alfonso & Nigar wedding film',
         'films.card2': 'Laman & Daniel short film',
         'portfolio.title': 'All Wedding Films',
-        'portfolio.subtitle': 'Browse the archive — every wedding, every season.',
+        'portfolio.subtitle': 'Browse the archive - every wedding, every season.',
         'portfolio.card1': 'Agalar & Anastasia wedding film',
         'portfolio.card2': 'Veysel & Umran',
         'portfolio.card3': 'Emil & Emiliya wedding film',
@@ -145,11 +145,11 @@ const i18nData = {
         'hero.primaryBtn': 'СМОТРЕТЬ ФИЛЬМЫ',
         'hero.secondaryBtn': 'НАЧАТЬ ИСТОРИЮ',
         'films.title': 'Избранные свадебные фильмы',
-        'films.subtitle': 'Каждый кадр — каждый удар сердца.',
+        'films.subtitle': 'Каждый кадр - каждый удар сердца.',
         'films.card1': 'Свадебный фильм Alfonso и Nigar',
         'films.card2': 'Короткометражный фильм Laman и Daniel',
         'portfolio.title': 'Все свадебные фильмы',
-        'portfolio.subtitle': 'Откройте архив — каждая свадьба, каждый сезон.',
+        'portfolio.subtitle': 'Откройте архив - каждая свадьба, каждый сезон.',
         'portfolio.card1': 'Свадебный фильм Agalar и Anastasia',
         'portfolio.card2': 'Veysel & Umran',
         'portfolio.card3': 'Свадебный фильм Emil и Emiliya',
@@ -281,6 +281,14 @@ window.addEventListener('scroll', () => {
 
 // Form submission
 const form = document.querySelector('.contact-form form');
+const weddingDateInput = document.querySelector('.contact-form input[type="date"]');
+
+if (weddingDateInput) {
+    const today = new Date();
+    today.setMinutes(today.getMinutes() - today.getTimezoneOffset());
+    weddingDateInput.value = today.toISOString().split('T')[0];
+}
+
 if (form) {
     form.addEventListener('submit', (e) => {
         e.preventDefault();

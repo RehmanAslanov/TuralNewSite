@@ -6,6 +6,12 @@ Format Keep a Changelog prinsiplərinə əsaslanır.
 
 ## [Unreleased]
 
+### Changed
+- Toy tarixi sahəsi üçün ilkin dəyər cari tarixə avtomatik təyin edilir.
+
+### Technical
+- Formdakı `input[type="date"]` səhifə yüklənərkən lokal saat qurşağına görə bugünkü tarixlə doldurulur.
+
 ## [fix-lang] - 2026-05-19
 
 ### Added
